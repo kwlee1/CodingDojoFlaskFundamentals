@@ -1,0 +1,35 @@
+h2{
+    margin: 20px auto; 
+    text-align: center; 
+}
+p{
+    margin: 20px auto; 
+    text-align: center; 
+}
+form{
+    margin: 20px auto; 
+    text-align: center; 
+}
+#too{
+    height: 100px; 
+    width: 100px; 
+    background-color: red; 
+    text-align: center; 
+    font-weight: bold; 
+    margin: 20px auto; 
+    padding: 60px 40px 0px; 
+    border: 3px solid black; 
+    color: white; 
+}
+#correct{
+    height: 100px; 
+    width: 100px; 
+    background-color: green; 
+    text-align: center; 
+    font-weight: bold; 
+    margin: 20px auto; 
+    padding: 60px 40px 0px; 
+    border: 3px solid black; 
+    color: white; 
+
+}

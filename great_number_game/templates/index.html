@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Great Number Game</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type='text/javascript'>
+            var myhint = '{{hint}}';
+            var mynum = "{{session['num']}}"; 
+        </script>
+    </head>
+    <body>
+        <h2>Welcome to the Great Number Game!</h2>
+        <p>I am thinking of a number between 1 and 100</p>
+        <p>Take a guess!</p>
+        <div id='wrong'>WRONG</div>
+        <form id='takeguess' action='/submit' method='post'>
+            <input id='guess' type='text' name='myguess' value=''><br>
+            <button>Submit</button>
+        </form>
+        <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+</html>
